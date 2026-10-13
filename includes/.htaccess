@@ -1,0 +1,8 @@
+# Bloqueia qualquer acesso direto a este diretório pelo navegador.
+# O PHP continua podendo dar require/include nestes arquivos normalmente.
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Deny from all
+</IfModule>

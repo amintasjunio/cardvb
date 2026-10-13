@@ -1,0 +1,11 @@
+# Não precisam ir para o Vercel (e assim nunca ficam acessíveis)
+uploads/
+sql/
+tools/
+*.md
+install.php
+upgrade.php
+index2.php
+.installed
+.env
+.env.example
